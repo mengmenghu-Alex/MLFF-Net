@@ -1,4 +1,4 @@
-## LED-Net: Lightweight Encoder-Decoder Network for Underwater image enhancement
+## Real-time Underwater Image Enhancement Based on Multi-level Feature Fusion
 
 ## 所需环境
 torch==1.12.0
