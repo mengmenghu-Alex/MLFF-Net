@@ -126,7 +126,7 @@ def setup(config):
         config.device = "cpu"
     
     
-    model = LEDNet().to(config["device"])
+    model = MLLF().to(config["device"])
 
     transform = transforms.Compose([transforms.Resize((config.resize,config.resize)),transforms.ToTensor()])
     train_dataset = myDataSet(config.input_images_path,config.label_images_path,transform, True)
